@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding:0;
+}
+
+body {
+    background-image: url("../images/qAQrhgbDi7Vz6mj4hq8oad_l38g_9OrWxPk1U_O4MyY.webp");
+    background-position: -19% 33%;
+    height:100vh;
+}
+
+.text {
+    background-color: #fff;
+    width : 400px;
+
+    height : 100vh;
+}
