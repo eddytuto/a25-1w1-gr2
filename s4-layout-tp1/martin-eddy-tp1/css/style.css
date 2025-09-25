@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+    border : 1px solid #aaa;  
+}
+
+body{
+
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height : 97vh;
+}
+
+/* ---------------------------------------------- les deux grande section blanc et noire */
+.blanc{
+    background-color: #fff;
+    padding : 3vh 0;
+}
+.noir{
+    background-color: #000;
+}
+
+/* ------------------------------------------- structure générale de la mise en page */
+/* header,main,footer */
+.centre
+{
+    width :960px;
+    margin: 0 auto;
+}
+
+
+.entete{
+    height : 12vh;
+}
+
+main{
+    padding : 3vh;
+    height: 44vh;
+}
+
+.pied{
+    height: 35vh;
+   
+}
+
+
+/* ************************************************************  Entete  (header)*/
+
+
+.entete__logo{
+    display: inline-block;
+}
+
+.entete__nav{
+    display: inline-block;
+    margin-left : 50px;
+}
+
+.entete__nav a {
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+/* ************************************************************  zone principale (main) */
+.hero{}
+
+.hero__img{}
+
+.hero__figcaption{}
+
+/* ************************************************************  zone pied de page (footer) */
+
+.pied {
+     color : #fff;
+}
+.pied__section{
+    display: inline-block;
+    width: 32%;
+}
+
+.pied__cite{
+    display: block;
+}
