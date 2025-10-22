@@ -1,6 +1,7 @@
 .recherche {
             border : 1px solid #ccc;
             display : inline-block;
+            background-color: #00000021;
           
         }
 
@@ -15,8 +16,13 @@
         }
         .recherche__input:focus {
             outline : none;
+
         }
 
+        .recherche__input::placeholder{
+            color : #fff;
+        }
+        
         .recherche__img {
             display: inline-block;
             vertical-align: top;
