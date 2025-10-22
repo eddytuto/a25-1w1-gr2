@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.centre {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+p{
+    padding:5px;
+    margin:0;
+    border : 1px solid #aaa;
+}
+
+.couleur-1{
+    background-color: aquamarine;
+    color:black;
+}
+.couleur-2{
+    background-color: rgb(220, 56, 15);
+    color:rgb(248, 246, 246);
+}
+.couleur-3{
+    background-color: rgb(51, 190, 44);
+    color:rgb(251, 249, 249);
+}
+.couleur-4{
+    background-color: rgb(21, 48, 170);
+    color:rgb(235, 229, 229);
+}
+
+section{
+    font-size: 4rem;
+    background-color: #ffffff65;
+    display:flex;
+    flex-direction: row;
+    /* height:200px; */
+    margin:0;
+    padding:0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* ================================================== .section-1 */
+.section-1 {
+ justify-content: flex-end;
+}
+
+
+/* ================================================== .section-2 */
+.section-2 {
+ justify-content: space-between
+}
+
+/* ================================================== .section-3 */
+.section-3 {
+ justify-content: space-around;
+}
+
+/* ================================================== .section-4 */
+.section-4 {
+ justify-content: space-evenly;
+ align-items: flex-start;
+}
+
+/* =============================================== .section-5 */
+.section-5 {
+ justify-content: space-between;
+}
+.section-5  div {
+   display : flex; 
+   border : 1px solid #aaa;
+}
+.section-5__div{
+    flex-direction: column;
+}

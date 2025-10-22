@@ -1,0 +1,24 @@
+.recherche {
+            border : 1px solid #ccc;
+            display : inline-block;
+          
+        }
+
+        .recherche__input {
+            background-color: transparent;
+            border : none;
+            display: inline-block;
+            vertical-align: top;
+            padding:8px;
+            color :#ccc;
+
+        }
+        .recherche__input:focus {
+            outline : none;
+        }
+
+        .recherche__img {
+            display: inline-block;
+            vertical-align: top;
+            margin:8px;
+        }

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.centre{
+    max-width: 1100px;
+    margin :0 auto;
+    border: 1px solid #aaa;
+    background-color: #ffffff7f;
+}
+
+.haut,.bas{
+    background-color: rgb(165, 93, 42);
+}
+.millieu{
+        background-color: rgb(61 151 184);
+}
+
+/* ////////////////////////////////////////////////////// entete */
+
+.entete{}
+
+
+/* ////////////////////////////////////////////////////// principal */
+.principal {}
+
+
+/* ////////////////////////////////////////////////////// pied de page */
+.pied{}
