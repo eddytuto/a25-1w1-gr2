@@ -109,8 +109,11 @@ figure{
     flex-basis: 390px;
 }
 .pied__sociaux{
-       display:flex;
+    display:flex;
     gap : 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%;
 
 
 }
