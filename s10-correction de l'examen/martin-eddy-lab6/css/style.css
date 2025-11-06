@@ -18,18 +18,24 @@ figure{
     padding:0;
 }
 
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
 .haut, .bas{
     background-color: #f5f5dc;
 }
 .millieu{
-     background-color: rgb(88, 227, 199);
+     background-color: rgb(170 229 225);
 }
 
 
 .centre{
     max-width : 1100px;
     margin : 0 auto;
-    background-color: #ffffff7a;
+    background-color: #ffffff43;
     padding: 30px 25px;
 }
 /* /////////////////////////////////////////////////////////// .entete */
@@ -65,7 +71,7 @@ figure{
 
 .principal__article {
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis: 400px;
 }
 
@@ -75,7 +81,7 @@ figure{
 
 .principal__figure {
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis: 400px;
 }
 
@@ -112,7 +118,7 @@ figure{
     display:flex;
     gap : 20px;
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis: 100%;
 
 
