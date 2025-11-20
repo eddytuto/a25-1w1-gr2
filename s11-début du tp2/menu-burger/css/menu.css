@@ -1,0 +1,37 @@
+#chk-burger{
+    display:none;
+}
+
+.navigation{
+position : fixed;
+top: 20px;
+right : 20px;
+text-align: right;
+   
+   
+}
+.navigation__menu{
+     background-color: #000000bb;
+     padding : 10px;
+}
+.navigation__menu a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display : block;
+    text-decoration: none;
+    background-color: #ffffff1e;
+    padding : 4px;
+    margin : 5px;
+    color : #fff;
+    font-size : 2rem;
+}
+
+.navigation__bouton{
+
+}
+.navigation__menu{
+    display: none;
+}
+
+#chk-burger:checked ~ .navigation__menu {
+    display : block;
+}

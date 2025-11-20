@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding:0;
+}
+h1,h2,p,figure,address {
+    padding : 40px 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+body {
+    background-image: url("../images/qAQrhgbDi7Vz6mj4hq8oad_l38g_9OrWxPk1U_O4MyY.webp");
+    background-position: -19% 33%;
+    height:100vh;
+}
+
+.text {
+    background-color: #ffffffc7;
+    width : 400px;
+
+    height : 100vh;
+}
