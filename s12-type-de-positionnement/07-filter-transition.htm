@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propriété filter</title>
+    <style>
+       img {
+        width : 500px;
+       }
+
+        .mon-filtre{
+            filter: blur(6.02px) brightness(1.14) contrast(1.18) hue-rotate(-198deg) invert(0.03) saturate(1.94) sepia(0.13);
+            transition : filter 10s;
+        }
+
+        .mon-filtre:hover{
+            filter:none;
+        }
+
+    </style>
+</head>
+<body>
+    <img class="mon-filtre" src="images/qAQrhgbDi7Vz6mj4hq8oad_l38g_9OrWxPk1U_O4MyY.webp" alt="">
+</body>
+</html>

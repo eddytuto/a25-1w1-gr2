@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propriété filter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 14px;
+            font-family: "Montserrat", sans-serif;
+            
+        }
+
+       img {
+        height : 100vh;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+
+       }
+p{
+    font-size: 2rem;
+}
+        .mon-filtre{
+            filter:  hue-rotate(41deg);
+          /*  background: linear-gradient(90deg, rgb(145, 93, 93),rgb(232, 165, 165)); */
+         
+        }
+/*
+        .mon-filtre:hover{
+            filter:none;
+        }
+*/
+
+.hero{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-around;
+     height : 100vh;
+}
+.hero__centre{
+    margin: 0 auto 0 0;
+    max-width: 900px;
+    padding: 30px;
+ /*   background-color: rgba(245, 245, 220, 0.6);*/
+    background:linear-gradient(90deg, rgba(231, 218, 120, 0.662),rgba(241, 240, 237, 0.127)) ;
+}
+        .hero__titre{
+            font-family: "DynaPuff", system-ui;
+            font-size: 5rem;
+            font-weight: bold;
+           /* background-color: rgba(255, 228, 196, 0.668);*/
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <section class="hero">        
+        <img class="mon-filtre" src="images/les-aliments-bons-pour-coeur_2000x.webp" alt="">
+        <div class="hero__centre">
+            <h1 class="hero__titre">Nutrition</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos quam? Voluptatibus asperiores, nostrum nisi rem iusto ullam incidunt ad maiores, nihil voluptas veniam eos iste illum hic, ut qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos quam? Voluptatibus asperiores, nostrum nisi rem iusto ullam incidunt ad maiores, nihil voluptas veniam eos iste illum hic, ut qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos quam? Voluptatibus asperiores, nostrum nisi rem iusto ullam incidunt ad maiores, nihil voluptas veniam eos iste illum hic, ut qui.</p>
+        </div>
+    </section>
+</body>
+</html>
