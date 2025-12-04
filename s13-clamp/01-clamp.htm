@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        html {
+            font-size : 14px;
+        }
+        h1 {
+
+/* pour générer les valeurs du clamp de façon optimal en fonction 
+du view-port mimum (teléphone mobile 400px) 
+et le view-port maximum la largeur centré ex: 1100px
+*/            
+/* https://clamp.font-size.app// */
+
+            /*font-size: clamp(.8rem, 10vw, 5rem); */
+            font-size: clamp(1rem, -3.1538rem + 14.7692vw, 7rem);
+        }
+    </style>
+</head>
+<body>
+    <h1>Recettes de cuisine</h1>
+</body>
+</html>
